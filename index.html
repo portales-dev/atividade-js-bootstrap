@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Painel de Estudos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body class="bg-light d-flex flex-column min-vh-100">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">Painel de Estudos</a>
+            <span class="navbar-text text-white">Desenvolvimento Web</span>
+        </div>
+    </nav>
+
+    <!-- Seção inicial -->
+    <header class="py-5 text-center bg-white border-bottom">
+        <div class="container">
+            <h1 class="display-5 fw-bold">Bem-vindo ao seu Painel de Estudos</h1>
+            <p class="lead text-secondary">
+                Acompanhe suas notas, tarefas e horas de estudo em um só lugar.
+                Abra o Console do navegador para ver os cálculos feitos em JavaScript.
+            </p>
+            <span class="badge text-bg-success fs-6">Painel ativo</span>
+        </div>
+    </header>
+
+    <main class="container my-5">
+
+        <!-- Alert -->
+        <div class="alert alert-success" role="alert">
+            Parabéns! Sua média atual é 7,5 e você está aprovado no módulo.
+        </div>
+
+        <!-- Cards -->
+        <div class="row g-4">
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Média das notas</h5>
+                        <p class="display-6 text-primary">7,5</p>
+                        <p class="card-text">Calculada com as notas 7 e 8.</p>
+                        <span class="badge text-bg-success">Aprovado</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Tarefas concluídas</h5>
+                        <p class="display-6 text-primary">7 de 10</p>
+                        <p class="card-text">Você já concluiu 70% das tarefas do módulo.</p>
+                        <span class="badge text-bg-warning">3 restantes</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Horas de estudo</h5>
+                        <p class="display-6 text-primary">10 h</p>
+                        <p class="card-text">2 horas por dia durante 5 dias.</p>
+                        <button type="button" class="btn btn-primary">Ver detalhes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3 mt-auto">
+        <div class="container">
+            <small>&copy; 2026 Painel de Estudos - Atividade de JavaScript e Bootstrap</small>
+        </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
